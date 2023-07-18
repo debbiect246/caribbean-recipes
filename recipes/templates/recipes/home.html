@@ -7,7 +7,8 @@
 {% for recipe in recipes %}
 
 <!-- bootstrap card to display recipes-->
-<div class="card" style="width: 18rem;">
+<!--my-4 adds spacing between the cards using a small margin between them-->
+<div class="card my-4" style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">{{ recipe.title }}</h5>
       <h6 class="card-subtitle mb-2 text-body-secondary">{{recipe.author}}</h6>
