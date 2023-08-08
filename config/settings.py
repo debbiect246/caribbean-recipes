@@ -12,9 +12,11 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 import os
 import dj_database_url
+from dotenv import load_dotenv
+load_dotenv()
 
-if os.path.exists('env.py'):
-    import env
+#if os.path.exists('env.py'):
+#    import config.env as env
 
 from pathlib import Path
 
@@ -26,7 +28,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-xmqxu&23$5$4_vg$j%q9*kl060=9&se!f_rcbb_g-d&kmy*iv*'
+#SECRET_KEY = 'django-insecure-xmqxu&23$5$4_vg$j%q9*kl060=9&se!f_rcbb_g-d&kmy*iv*'
+SECRET_KEY = str(os.getenv('SECRET_KEY'))
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
