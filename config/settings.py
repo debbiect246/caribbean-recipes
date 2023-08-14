@@ -34,7 +34,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://caribbean-recipes-production.up.railway.app/', '127.0.0.1']
+ALLOWED_HOSTS = ['caribbean-recipes-production.up.railway.app', '127.0.0.1']
 CSRF_TRUSTED_ORIGINS=['https://caribbean-recipes-production.up.railway.app/']
 
 # Application definition
