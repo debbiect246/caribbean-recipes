@@ -3,10 +3,8 @@ A django app for users to record caribbean recipes
 This app celebrates the recipes of the caribbean.  Users can add interesting caribbean recipes.
 
 ## Goal
-Technology and the uprising of AI has provided people with online tools and resources to better navigate our daily lifes and struggles. However, technology is not yet at the point to completely replace the human interaction, but rather empoweres it . Members of the LGBTQ+ community encounter upsetting situations daily and frequently, specific to their cohort and look for help in their peers. The main objective of this project is to demonstrate the use of technology to target and facilitate this interaction. While search engines and other apps using AI can advice on specific subjects, this platform offers a more direct and efficient tool where technology and human feelings will work together to provide the best user experience and results.
-This project will not only provide sources of emotional support by directing people to right resources to comfort but will enhence the sense of community within the LGTB+ cohort.
+Technology has meant that people can now access recipes online in a variety of apps.  There is also a need for people to record recipes that they enjoy making and eating quickly.  Some people might want to store important recipes that have been passed down in  their families.  I have a mixed heritage background and for a long time have wanted to create a caribbean recipe app to record some of the recipes that my late father who was from the island of Grenada in the Caribbean, used to cook for me and my siblings and my mother.  He was a very good cook and would spend hours perfecting these wonderful recipes.  So the idea for this app was always in my head for many years.  I had created a previous app in flask but this one was intended to be so much better than that.   Users can create their own account and add their recipes, and the option is there to edit or delete them as well.  All users can see all recipes on the home page.  I aim to provide search funtionality for different types of recipes in the future as well.
 
-## The Skeleton Plane
 
 ### The Database Design
 The database was designed to allow CRUD functionality to be available to registered users, when signed in. The user model plays a crucial role in handling authentication, provided by Django using the allauth django library.
@@ -60,20 +58,11 @@ I would like to give credit to the following individuals, organizations, and res
 Technology and the uprising of AI has provided people with online tools and resources to better navigate our daily lifes and struggles. However, technology is not yet at the point to completely replace the human interaction, but rather empoweres it . Members of the LGBTQ+ community encounter upsetting situations daily and frequently, specific to their cohort and look for help in their peers. The main objective of this project is to demonstrate the use of technology to target and facilitate this interaction. While search engines and other apps using AI can advice on specific subjects, this platform offers a more direct and efficient tool where technology and human feelings will work together to provide the best user experience and results.
 This project will not only provide sources of emotional support by directing people to right resources to comfort but will enhence the sense of community within the LGTB+ cohort.
 
-## The Skeleton Plane
 
 ### The Database Design
 The database was designed to allow CRUD functionality to be available to registered users, when signed in. The user model plays a crucial role in handling authentication, provided by Django. Enhanced user permissions were designed based on the user.is_staff and user.is_superuser boolean fields. Further information about this model can be found on Django.
 
-The Event and the Resource models include information about the author, as well as the number of users joining or liking the single event/resource.
 
-The Comment model includes information about the respective Event.
-
-The UserProfile model includes information about the respective User.
-
-The Contact model is indipendent from the other models.
-
-The Category model includes information about the Resource to differentiate between them.
 
 The entity relationship diagram was created using a spreadsheet environment and shows the schemas for each of the models and how they are related.
 
@@ -116,16 +105,9 @@ For the development of Rainbow warriors we made use of the following stack of te
 
 ## Credits
 We would like to give credit to the following individuals, organizations, and resources that have contributed to the project or provided inspiration:
-- 🙌 Deborah_alumni for deployment, back-end, presentation video and content.
-- 🙌 Devan_Cadman_4P for front-end, logo, favicon and Tailwind Skills.
-- 🙌 Johnny_5p for being scrum master, back-end and readme.
-- 🙌 Alfredo Morieri_5P for full-stack, content ideas and loads of effort!
-- 🙌 Efren_Andablo for project idea, sourcing content, sourcing images and for readme.
+
 
 ### Media
-- All images in Rainbow Warriors were sourced and taken from 🌐 [Unsplash.com](https://unsplash.com/) and 🌐 [Pexels.com](https://www.pexels.com/).
-- The logo was created by 
-- The original logo used as a base for our logo was sourced from 🌐 [Flaticon.com - Rainbow Icon](https://www.flaticon.com/free-icon/rainbow_5176055).
-- The logo was turned into a Favicon by using 🌐 [Real favicon generator](https://realfavicongenerator.net/)
-- The original logo used as a base for our logo was sourced from 🌐 [Flaticon.com - Rainbow Icon](https://www.flaticon.com/free-icon/rainbow_5176055).
+- All images in Rainbow Warriors were sourced and taken from 
+- The original logo used as a base for the  logo was sourced from 
 - The logo was turned into a Favicon by using 🌐 [Real favicon generator](https://realfavicongenerator.net/)
